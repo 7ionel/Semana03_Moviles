@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#D4EFDF"
+    >
+
+    <!-- Item User ID and Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#E8DAEF"
+        >
+
+        <TextView
+            android:id="@+id/idItemUserId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Item Email -->
+    <TextView
+        android:id="@+id/idItemEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        android:paddingTop="8dp"
+
+        android:drawablePadding="8dp" />
+
+    <!-- Item Phone -->
+    <TextView
+        android:id="@+id/idItemPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+
+        android:drawablePadding="8dp" />
+
+    <!-- Item Website -->
+    <TextView
+        android:id="@+id/idItemWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        android:paddingTop="8dp"
+
+        android:drawablePadding="8dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

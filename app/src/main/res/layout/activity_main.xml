@@ -9,21 +9,6 @@
     android:orientation="vertical"
     android:layout_margin="20dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Listado de usuarios"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:padding="10dp"
-        android:textAlignment="center"/>
-
-    <Spinner
-        android:id="@+id/spnUsuarios"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"/>
-
     <Button
         android:id="@+id/btnFiltrar"
         android:layout_width="match_parent"
@@ -31,15 +16,12 @@
         android:text="Filtrar"
         android:padding="10dp"/>
 
-    <TextView
-        android:id="@+id/txtResultado"
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"/>
-
-
-
-
+        android:id="@+id/lstUsuarios"
+        android:padding="10dp"
+        />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
